@@ -1,0 +1,39 @@
+.HeaderContent{
+    background: rgb(98, 150, 62);
+}
+
+.headeralign{
+    width: 100vw;
+    margin: auto;
+    max-height: 80px;
+    color: white;
+}
+
+.HeaderContainer{
+    margin: 0px auto;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1050px;
+    width: 100%;
+}
+
+
+.column > a{
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+}
+
+.column > a:hover{
+    color: #cccccc;
+}
+
+.headertitle{
+    font-family: 'bauhaus 93';
+}
+
+.headerlink{
+    max-width: 451px;
+    width: 100%;
+    justify-content: space-between;
+}

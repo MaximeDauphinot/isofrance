@@ -1,0 +1,62 @@
+.wayToDo{
+    width: 100vw;
+    max-height: 600px;
+    background: rgb(245, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wayToDo > h1{
+    margin-bottom: 0px;
+    margin-top: 60px;
+}
+
+.AligmnentDemarche{
+    width: 100%;
+    height: 100%;
+}
+.demarche{
+    width: 100%;
+    margin: 50px 130px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rowWayTo{
+    flex-direction: row;
+}
+
+.displayWayTo{
+    flex-direction: column;
+    width: 50%;
+    max-width: 480px;
+}
+
+.displayWayTo > h1 {
+    color: rgb(98, 150, 62);
+    font-size: x-large;
+    align-self: flex-start;
+}
+
+.displayWayTo > p {
+    text-align: left;
+}
+
+.btn{
+    -webkit-appearance: button;
+    cursor: pointer;
+    background: #cccccc;
+    color: white;
+    width: 300px;
+    height: 44px;
+    font-size: 1.5em;
+    text-decoration: none;
+    margin: 10px 0px;
+}
+
+.btn > a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,77 @@
+.form{
+    width: 100%;
+}
+
+.simulator{
+    flex-direction: column;
+    max-width: 450px;
+    margin: 30px 10px;
+    width: 100%;
+}
+
+.title{
+    flex-direction: column;
+    background: rgba(98, 150, 62, 0.75);
+    color: #cccccc;
+}
+
+.title > h3{
+    text-align: left;
+    max-width: 320px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    font-size: x-large;
+}
+
+.title > h4{
+    text-align: left;
+    max-width: 250px;
+    margin-left: 10px;
+    color: white;
+}
+
+.alignmentformulary{
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.75);
+}
+
+.row{
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.row_sd{
+    margin-left: 14px;
+}
+
+.rowAlignement{
+    justify-content: left;
+    align-items: center;
+    width: 33.33%;
+}
+
+input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+    background: #cccccc;
+    color: white;
+    width: 300px;
+    height: 44px;
+    font-size: 1.5em;
+}
+
+.button{
+    align-items: center;
+    justify-content: center;
+}
+
+.inputstyle{
+    height: 44px;
+    width: 100%;
+    border-radius: 5px;
+    max-width: 181px;
+    margin: 0px 10px;
+    border: 1px solid #ddd;
+}

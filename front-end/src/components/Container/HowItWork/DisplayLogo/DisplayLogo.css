@@ -1,0 +1,23 @@
+.DisplayLogo{
+    width: 50vw;
+    background: white;
+    max-height: 500px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    height: 100%;
+}
+
+.logo{
+   width: 100%; 
+}
+
+@keyframes slide {
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}

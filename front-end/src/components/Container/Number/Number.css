@@ -1,0 +1,51 @@
+.number{
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: url('../../../assets/toits.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.numberContainer{
+    flex-direction: column;
+}
+
+.numberDesign{
+    margin: 0px 15px;
+    flex-direction: column;
+}
+
+.Numbers{
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.TitleNumbers{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.TitleNumbers > p{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.chiffres{
+    font-size: 3.5em;
+    align-items: center;
+    justify-content: center;
+    background: rgba(98, 150, 62, 0.75);
+}
+
+.DotNumber{
+    width: 100%;
+    justify-content: center;
+    margin: 7px;
+    border: 1px solid white;
+    border-style: dashed;
+}

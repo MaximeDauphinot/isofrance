@@ -1,0 +1,13 @@
+.container{
+    padding-top: 115px;
+    background-image: url('../../assets/isolation.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bigContainer{
+    flex-direction: column;
+}
