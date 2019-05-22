@@ -13,6 +13,7 @@
     flex-direction: column;
     background: rgba(98, 150, 62, 0.75);
     color: #cccccc;
+    font-family: 'Arima Madurai', display;
 }
 
 .title > h3{
@@ -68,7 +69,7 @@ input[type=submit] {
 }
 
 .inputstyle{
-    height: 44px;
+    height: 30px;
     width: 100%;
     border-radius: 5px;
     max-width: 181px;

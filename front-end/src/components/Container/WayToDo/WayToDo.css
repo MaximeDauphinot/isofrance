@@ -5,11 +5,13 @@
     font-family: Arial, Helvetica, sans-serif;
     flex-direction: column;
     align-items: center;
+    font-family: 'Arima Madurai', display;
 }
 
 .wayToDo > h1{
     margin-bottom: 0px;
     margin-top: 60px;
+    color: rgb(98, 150, 62);
 }
 
 .AligmnentDemarche{
