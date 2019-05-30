@@ -2,3 +2,9 @@
     flex-direction: row;
     height: 700px;
 }
+
+@media screen and (max-width: 450px) {
+    .HowItWork{
+        flex-direction: column;
+    }
+  }

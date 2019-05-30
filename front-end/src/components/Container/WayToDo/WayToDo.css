@@ -1,6 +1,5 @@
 .wayToDo{
     width: 100vw;
-    max-height: 600px;
     background: rgb(245, 245, 245);
     font-family: Arial, Helvetica, sans-serif;
     flex-direction: column;
@@ -33,17 +32,21 @@
 .displayWayTo{
     flex-direction: column;
     width: 50%;
+    margin: 30px;
     max-width: 480px;
+    border: 3px solid rgb(98, 150, 62);
 }
 
 .displayWayTo > h1 {
     color: rgb(98, 150, 62);
     font-size: x-large;
     align-self: flex-start;
+    margin-left: 5px;
 }
 
 .displayWayTo > p {
     text-align: left;
+    margin-left: 5px;
 }
 
 .btn{
@@ -61,4 +64,17 @@
 .btn > a{
     text-decoration: none;
     color: white;
+}
+
+@media screen and (max-width: 450px){
+    .demarche{
+        margin: 10px;
+        font-size: 0.5em;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .displayWayTo > h1 {
+        font-size: 0.5em;
+    }
 }

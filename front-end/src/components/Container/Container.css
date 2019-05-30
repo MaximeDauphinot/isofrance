@@ -11,3 +11,9 @@
 .bigContainer{
     flex-direction: column;
 }
+
+@media screen and (max-width: 450px) {
+    .container{
+        padding-top: 70px;
+    }
+  }

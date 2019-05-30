@@ -78,3 +78,10 @@ input[type=submit] {
     margin: 0px 10px;
     border: 1px solid #ddd;
 }
+
+@media screen and (max-width: 450px) {
+    .simulator{
+        max-width: 300px;
+    }
+  }
+

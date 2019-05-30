@@ -52,3 +52,10 @@
     align-items: center;
     margin: 0;
 } 
+
+@media screen and (max-width: 450px) {
+    .formPres{
+        display: none;
+        align-items: center;
+    }
+  }

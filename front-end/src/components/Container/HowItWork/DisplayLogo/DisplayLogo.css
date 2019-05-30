@@ -21,3 +21,9 @@
         transform: translateX(0%);
     }
 }
+
+@media screen and (max-width: 460px){
+    .DisplayLogo{
+        display: none;
+    }
+}
