@@ -22,7 +22,12 @@ transporter.verify((error, success) => {
   }
 });
 
-router.post('/send', (req, res, next) => {
+router.get('/app2/', (req, res) => {
+	console.log('dauph');
+	res.send('ok');
+});
+
+router.post('/app2/send', (req, res, next) => {
   var nom = req.body.nom
   var prenom = req.body.prenom
   var email = req.body.email
